@@ -74,13 +74,21 @@ Anita
 After user entering the name through it will displayed with in patter like this
 
 +--------------------+
+
 |                    |
+
 |                    |
+
 |                    |
+
 |                    |
+
 |                    |
+
 |             Anita  |
+
 |                    |
+
 +--------------------+
 
 
