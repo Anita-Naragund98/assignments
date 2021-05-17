@@ -28,21 +28,34 @@ After in final else part I have one more if condition to check if (i == 3 && j =
 After the condition is false in if conditon it will come out of the loop. And after the completion of given number of iterations it will come out of the loop and displayes the others contents.
 
 for (int i = 9; i > 0; i--) {
+
 			if (i == 1 || i == 9) {
+			
 				System.out.println("+------------------+");
+				
 			} else {
+			
 				for (int j = 1; j < 23; j++) {
+				
 					if (j == 1 || j == 22) {
+					
 						System.out.print("|");
+						
 					} else {
+					
 						if (i == 3 && j == n + 1) {
+						
 							System.out.print(name + "  " + "|");
+							
 							break;
+							
 						} else {
+						
 							System.out.print(" ");
 						}
 					}
 				}
+				
 				System.out.println();
 			}
 		}
