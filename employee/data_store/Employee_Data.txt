@@ -1,0 +1,42 @@
+*****************************
+EmpId :43
+Name is :Anita
+Age is :23
+Sal is :30000
+Desig is :Manager
+*****************************
+*****************************
+EmpId :54
+Name is :Trupti
+Age is :25
+Sal is :45000
+Desig is :Programmer
+*****************************
+*****************************
+EmpId :23
+Name is :anu
+Age is :34
+Sal is :10000
+Desig is :Clerk
+*****************************
+*****************************
+EmpId       :54
+Name        :Anita
+Age         :23
+Salary      :30000
+Designation :Manager
+*****************************
+*****************************
+EmpId       :65
+Name        :Trupti
+Age         :25
+Salary      :45000
+Designation :Programmer
+*****************************
+*****************************
+EmpId       :89
+Name        :Vinay
+Age         :20
+Salary      :10000
+Designation :Clerk
+*****************************
