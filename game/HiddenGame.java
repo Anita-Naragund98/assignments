@@ -18,27 +18,15 @@ public class HiddenGame {
 			int n4 = random.nextInt(s.length());
 			for (int j = 0; j < s.length(); j++) {
 				int lenOfWord = s.length();
-				if (lenOfWord <= 4) {
-					if (j == n1 || j == n2) {
-						System.out.print("*");
-					} else {
-						System.out.print(s.charAt(j));
-					}
-				} else if (lenOfWord < 10 && lenOfWord >= 4) {
-					if (j == n1 || j == n2 || j == n3) {
-						System.out.print("*");
-					} else {
-						System.out.print(s.charAt(j));
-					}
-				} else if (lenOfWord >= 10) {
+				if (lenOfWord <= 4 || lenOfWord < 10 && lenOfWord >= 4 || lenOfWord >= 10) {
 					if (j == n1 || j == n2 || j == n3 || j == n4) {
 						System.out.print("*");
+					} else {
+						System.out.print(s.charAt(j));
 					}
-				} else {
-					System.out.print(s.charAt(j));
+
 				}
 			}
-
 			System.out.println();
 			System.out.println("Write the correct word");
 			String str1 = sc.nextLine();
